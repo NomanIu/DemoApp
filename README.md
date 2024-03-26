@@ -46,14 +46,31 @@ If everything is set up _correctly_, you should see your new app running in your
 
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
-## Step 3: Modifying your App
+## Information about implementation
 
-Now that you have successfully run the app, let's modify it.
+### Header
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+- We created our custom header by placing left Icon, Title and user image in a single row bu using flex-direction
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+### Segment control
+
+- We created segment control by placing multiple views in a single row
+
+### Content type 
+
+- We created content selection with the help of flex-Wrap and placing them on top of each other while giving user the functionality to select from the given content types.
+
+### Dropdown
+
+- We created our drop down with the help of @react-native-picker/picker. It allows users to select from a range of existing options.
+
+### Slider with indicator
+
+- We created our slider with the help of @react-native-community/slider. After slider we added custom indicator on top of it to show the updated slider value to our users.
+
+### Button
+
+- We created our custom button with the help of custom views.
 
 ## Congratulations! :tada:
 
