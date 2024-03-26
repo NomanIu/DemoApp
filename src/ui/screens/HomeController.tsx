@@ -165,10 +165,9 @@ const HomeController: FC<Props> = () => {
     setContenetTypes(updatedButtons);
   };
 
-  const handleTopicChange = value => {
-    console.log(value);
+  const handleTopicChange = (value:string) => {
     setSelectedTopic(value);
-    setSelectedTitle(''); // Reset selected title when topic changes
+    setSelectedTitle(''); 
   };
 
   return (
