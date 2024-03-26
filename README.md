@@ -55,6 +55,32 @@ Now that you have successfully run the app, let's modify it.
 
    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
+## Information about implementation
+
+### Header
+
+1. We created our custom header by placing left Icon, Title and user image in a single row bu using flex-direction
+
+### Segment control
+
+1. We created segment control by placing multiple views in a single row
+
+### Content type 
+
+1. We created content selection with the help of flex-Wrap and placing them on top of each other while giving user the functionality to select from the given content types.
+
+### Dropdown
+
+1. We created our drop down with the help of @react-native-picker/picker. It allows users to select from a range of existing options.
+
+### Slider with indicator
+
+1. We created our slider with the help of @react-native-community/slider. After slider we added custom indicator on top of it to show the updated slider value to our users.
+
+### Button
+
+1. We created our custom button with the help of custom views.
+
 ## Congratulations! :tada:
 
 You've successfully run and modified your React Native App. :partying_face:
